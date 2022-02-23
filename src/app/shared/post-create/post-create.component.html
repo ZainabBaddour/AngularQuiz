@@ -1,0 +1,20 @@
+
+
+<form #f="ngForm"
+      class="container add-form form-group"
+      (ngSubmit)="onSubmit(f)" novalidate>
+  <h1>Add a new post</h1>
+  <div>
+    <label>Title</label>
+    <input class="form-control"
+           name="title" ngModel required #first="ngModel">
+  </div>
+  <div>
+    <label>Content</label>
+    <input class="form-control"
+           name="content" ngModel required>
+  </div>
+  <br>
+  <button type="submit" class="btn btn-primary">Submit</button> 
+</form>
+

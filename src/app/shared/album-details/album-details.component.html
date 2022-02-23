@@ -1,0 +1,28 @@
+<div class="container">
+
+    <div class="post-details">
+
+        <div class="row">
+            <div class="col">
+                <h1>{{album.title}}</h1>
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <div class="photos">
+        <h4>photos</h4>
+    <div class="container">
+        <div *ngFor="let p of photos" >
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" [src]="p.url" alt="Card image cap">
+              </div>
+            <br>
+        </div>
+    </div>
+    </div>
+    <br>
+ <a routerLink="/albums">  <button type="button" class="btn btn-primary">Back to Albums</button></a>
+
+
+</div>

@@ -1,0 +1,15 @@
+.container {
+    width: 100%;
+    margin-top: 20px;
+}
+h1 {
+color: #0f65ad;
+}
+h4 {
+    color: #0f65ad;
+    font-style: italic;
+}
+.container{
+    display: flex;
+flex-wrap: wrap;
+}

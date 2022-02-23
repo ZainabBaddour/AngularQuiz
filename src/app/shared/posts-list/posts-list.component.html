@@ -1,0 +1,11 @@
+<div class="container">
+<br>
+  <pagination-controls class="pagenation" (pageChange)="p = $event"></pagination-controls>
+  <div class="row">
+    <div *ngFor="let post of posts | paginate: { itemsPerPage: 10, currentPage: p };
+        let ndx = index
+      " class="col-11 col-md-6 col-lg-4 col-xl-3 py-3">
+      <app-post [data]="post" class="card"></app-post>
+    </div>
+  </div>
+</div>

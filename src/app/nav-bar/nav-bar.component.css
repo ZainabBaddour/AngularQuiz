@@ -1,0 +1,52 @@
+p {
+    font-family: Lato;
+  }
+  .navbar {
+      background-color: #0f65ad;
+    
+  }
+  a {
+    color: white ;
+  }
+  a:hover {
+    color: white;
+  }
+  sub{
+    font-size: large;
+  }
+ .nav-link{
+   color: white;
+ }
+ .navbar-brand {
+   font-family: 'Times New Roman', Times, serif;
+   font-style: italic;
+   font-size: 40px;
+   padding-bottom: 1rem;
+  padding-left: 3rem!important
+  }
+ .btn .navbar-toggler{
+  background-color: #0f65ad;
+
+ }
+ .btn {color: white;}
+
+ .btn:hover{border-color: #0f65ad; color: white;;}
+ .btn:checked {
+   border: none;
+   background-color: #0f65ad;
+
+ }
+ .navbar-nav {
+   padding: 30px ;
+   /* margin-left: 200px; */
+   width: 40%;
+
+  
+   
+ }
+ .nav-item {
+  margin: 0 0.03rem;
+  font-family: 'Times New Roman', Times, serif;
+     font-size: large;
+}
+

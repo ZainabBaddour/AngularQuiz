@@ -1,0 +1,24 @@
+
+  .post {
+    margin: 16px;
+  }
+  .add-form {
+    margin: 24px;
+    padding: 16px;
+    width: 300px;
+  }
+  .add-form input {
+    margin: 8px;
+  }
+  h1 {
+    color: #0f65ad;
+
+  }
+  .container {
+   max-width: 60%;
+   background-color: #DBF5FD;
+
+  }
+  label{
+    font-style: italic;
+  }

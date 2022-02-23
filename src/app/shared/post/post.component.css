@@ -1,0 +1,30 @@
+
+.redTxt{
+  color: #0f65ad;
+}
+.card {
+  display: flex;
+  padding: 1rem;
+  width: 100%;
+  height: 270px;
+  border: none;
+  @media(min-width: 40rem) {
+    width: 50%;
+  }
+  @media(min-width: 56rem) {
+    width: 33.3333%;
+  }
+}
+
+.title{
+  color: #0f65ad;
+
+}
+.moreBtn {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  align-items: center;
+  color: #0f65ad;
+
+}
