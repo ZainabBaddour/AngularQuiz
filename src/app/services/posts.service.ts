@@ -6,7 +6,6 @@ import { album } from '../models/album.model';
 import { PostComment } from '../models/comment.model';
 import { Photo } from '../models/photo.model';
 import { Post } from '../models/post.model';
-import { Requestresult } from '../models/ReequestResult';
 
 @Injectable({
   providedIn: 'root',
